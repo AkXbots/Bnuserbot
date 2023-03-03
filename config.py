@@ -6,7 +6,7 @@ if os.path.exists("local.env"):
     load_dotenv("local.env")
 
 
-API_ID = int(getenv("API_ID", "6435225")) #optional
+API_ID = int(getenv("API_ID", "25591955")) #optional
 API_HASH = getenv("API_HASH", "") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
@@ -21,7 +21,7 @@ GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
 REPO_URL = getenv("REPO_URL", "https://github.com/ITZ-ZAID/ZAID-USERBOT")
 BRANCH = getenv("BRANCH", "master") #don't change
  
-STRING_SESSION1 = getenv("STRING_SESSION1", "BQBlDB-XYSNjqKwetw7-xb693VK0ZJvRUTLsGsDStCISH7VYJ3CorxAg_WTpMDMo7qVbxwgjo9g-hdtmIU8iwVGlnUQEbAREr2FAx2ZtFEsLOSrVVfk4Ggs9eDIfTtf36mNuCj4tYAeilNpKRS2qxg8tf9hHGHlngVVJv-vgSrXG0O9aUU8ZlP8RzdJoRhUi_JHIFwsAk7t2cxeVVZM9_f3WqrZtGik5RvjKWoJiZHxpeDP-cu9DLZIM74YQL6mvsx6xhMnMxWCu0KEMMBij1q-AKu0bDmufwuOaoM2oJSDV-P7BxsP1DiGpUgkg6eaQ6VZmj4J_K1bWQdlvTqefQ81CAAAAAXYMpW8A")
+STRING_SESSION1 = getenv("STRING_SESSION1", "BQBiMZkAtMsyf7OEjLn7PuwSytr248NbTqtWNOOfNQ2XwykioXG998bkUq8MhREQL4vwedj7Kt4IWG1wNpaTio1Idej5aKEOKbNGNaH5CFbpIy65pqA8Gm_aiZsNAsYt6ESvFknNyyAZM7iYIvpWJq6wFzVlLLxem3JbeQx31dj2sVzUL1D-TqY7936EpesK1Hqo2Ut3iWLGFZu7EOmJsUvVbQraiZQKmAX9wH-ANkTz1oVXwDChHBvBelLdwJ3GXPaVgY53TmrgWz3fphakmZkP9FQR_cBsRQ-Y3aTlJjf3T_6QjHVhOOvJCYW_KTILOfRs8_81yMXNpDvedmYqVEs0DywpjwAAAAF2DKVvAA")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
 STRING_SESSION3 = getenv("STRING_SESSION3", "")
 STRING_SESSION4 = getenv("STRING_SESSION4", "")
